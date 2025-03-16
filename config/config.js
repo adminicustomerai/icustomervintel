@@ -13,6 +13,7 @@ const config = {
   port: 3001,
   nodeEnv: process.env.NODE_ENV || 'development',
   logLevel: process.env.LOG_LEVEL || 'info',
+  allowedOrigins: ["https://twin.nyc", "https://icustomer.ai"]
 };
 
 export default config;
